@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 bot_token = getenv("BOT_TOKEN")
 if not bot_token:
-    exit("Error: no token provided")
+    exit("Error: no token provided.")
 
 
 bot = Bot(token=bot_token)

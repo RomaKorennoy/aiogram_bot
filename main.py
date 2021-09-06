@@ -1,6 +1,6 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
-from config import exchangeratesapi_key, fastforex_key
+from config import exchangeratesapi_key, fastforex_key, TOKEN
 from os import getenv
 import requests
 import matplotlib.pyplot as plt
@@ -17,7 +17,7 @@ import time
 logging.basicConfig(level=logging.INFO)
 
 
-bot_token = getenv("BOT_TOKEN")
+bot_token = TOKEN
 if not bot_token:
     exit("Error: no token provided.")
 

@@ -5,7 +5,7 @@ Make sure you have Python 3.9 installed.
 
 Next download code from Git. 
 ```
-git clone https://github.com/RomaKorennoy/aiogram_bot.git
+git clone https://github.com/RomanKorinnyi/aiogram_bot
 ```
 You need to set your bot token in the file config.py
 
